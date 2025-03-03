@@ -1,7 +1,6 @@
 import emoji from 'react-easy-emoji';
 import {
   EducationType,
-  ExperienceType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
