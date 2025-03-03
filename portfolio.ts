@@ -1,6 +1,7 @@
 import emoji from 'react-easy-emoji';
 import {
   EducationType,
+  ExperienceType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -173,7 +174,20 @@ export const educationInfo: EducationType[] = [
     duration: 'Aug 2006 - Apr 2018',
   },
 ];
-
+export const experience: ExperienceType[] = [
+  {
+    role: 'Software Engineer',
+    company: 'company name',
+    client: 'client',
+    companyLogo: '/img/icons/common/google.svg',
+    date: 'May 2019 - May 2020',
+    desc: 'Worked with web applications, automation, and cloud integration.',
+    descBullets: [
+      'Optimized code, achieving a 40% reduction in load times, significantly enhancing user experience.',
+      'Collaborated with cross-functional teams, driving product innovation, and improving team synergy.',
+    ],
+  },
+];
 
 export const projects: ProjectType[] = [
   {
