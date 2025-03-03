@@ -204,7 +204,7 @@ export const certifications: CertificationsType[] = [
     certificate: 'AWS Cloud Certified Practitioner',
     issuedby: 'AWS',
     github: 'https://www.credly.com/badges',
-  }
+  },
     {
     certificate: 'AWS Cloud solution architect',
     issuedby: 'AWS',
